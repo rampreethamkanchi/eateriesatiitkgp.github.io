@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eateries at IIT KGP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url(https://i.pinimg.com/originals/6f/0a/07/6f0a07c32a16e9a4e3d49eb74bcf73c7.jpg);
+            margin: 0;
+        }
+
+        .headings {
+            text-align: center;
+            color: bisque;
+            /* background-color: #e4eb69; */
+        }
+
+        #heading1 {
+            font-size: calc(2.5em + 0.8vw);
+            font-family: 'Alkatra', cursive;
+        }
+
+        #heading2 {
+            font-size: calc(1.1em + 0.8vw);
+            font-family: 'Mukta', sans-serif;
+        }
+
+        #rests {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            /* background-color: rgb(237, 241, 106); */
+            background-image: url(https://media.istockphoto.com/id/1171061827/photo/soft-yellow-fabric-background.jpg?s=170667a&w=0&k=20&c=ryMyh27Bf5NhFD5-zOe__d83apJKKkY77NtYXbQi_dk=);
+            /* background-image: url(https://img.freepik.com/premium-photo/yellow-background-from-textile-material-with-pattern-closeup-structure-fabric-with-natural-texture_113767-358.jpg); */
+            margin: 0px;
+        }
+
+        .rest {
+            margin: calc(1rem + 0.5vw);
+            padding: 0.3vw;
+            background-color: aquamarine;
+            border: 0.5px solid black;
+            border-radius: calc(0.5vw);
+        }
+
+        #sociallinks {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .sociallink {
+            width: 40px;
+            height: 40px;
+        }
+
+        .img {
+            width: 350px;
+            border: 3px solid rgb(30, 79, 7);
+        }
+
+        .imgdes {
+            text-align: center;
+        }
+
+        .imgdes {
+            font-size: calc(1rem + 0.5vw);
+            font-weight: bold;
+        }
+
+        .footer {
+            /* margin-top: calc(1em+0.5vw); */
+            background-color: whitesmoke;
+        }
+
+        #sociallinks {
+            margin: calc(0.4em + 0.5vw);
+            padding: calc(0.1em + 0.2vw);
+        }
+
+        #hamburger {
+            width: calc(62px + 0.9vw);
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            cursor: pointer;
+        }
+
+        #menu {
+            display: none;
+            width: calc(300px + 10vw);
+            /* height: 100vh; */
+            /* display: flex; */
+            flex-direction: column;
+            align-items: center;
+            font-size: 1.5rem;
+            background-color: whitesmoke;
+            position: absolute;
+            font-weight: bold;
+            top: 0px;
+            left: 0px;
+        }
+
+        .menu {
+            margin: 2rem 0px;
+            border: 2px solid black;
+            padding: 0.5rem 1rem;
+        }
+
+        #cross {
+            width: calc(22px + 0.5vw);
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            cursor: pointer;
+        }
+        .sm{
+            width: 51px;
+        }
+        @media(max-width :450px){
+            .img {
+            width: 275px;
+            border: 2px solid rgb(30, 79, 7);
+        }
+        .sm{
+            width: 41px;
+        }
+        }
+        @media(max-width :800px){
+            #menu{
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <span class="hamburger">
+        <img id="hamburger"
+            src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2012/10/threelines.png"
+            alt="hamburger">
+    </span>
+    <div id="menu">
+        <div id="cross"><img src="https://cdn-icons-png.flaticon.com/512/75/75519.png" alt="cross" id="cross"></div>
+        <div class="menu" id="home"><a href="index.html"  style="text-decoration: none; color: black;">Home</a></div>
+        <div class="menu" id="about"><a href="about.html"  style="text-decoration: none; color: black;">About</div>
+        <div class="menu" id="contact"><a href="contact.html" style="text-decoration: none; color: black;">Contact</a></div>
+        <div class="menu" id="website"><a href="https://kodeinkgp.live/" style="text-decoration: none; color: black;">Our website</a></div>
+    </div>
+    <header class="headings">
+        <h1 id="heading1">Restaurents at IIT KGP</h1>
+        <h2 id="heading2">Select a restaurent to order food</h2>
+    </header>
+    <div id="rests">
+        <a href="rest1.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest1"><img
+                    src="https://lh6.googleusercontent.com/xI2BqLx5xrmGGrWdPDncsIMMPCTLQumUIU8-WcKX34KC2ZasHHCPtMc7CPhx5kDxMl9TbW14UKhefEQmrKZfcvgfJ8Q2kacwgfdnWqSBTIFnYxhMgbjrXMiDJEBmOxhjcDvg0htq"
+                    alt="baskin robbins" class="img" id="img1">
+                <p class="imgdes">1. Baskin Robbins</p>
+            </div>
+        </a>
+        <a href="rest2.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest2"><img
+                    src="https://lh3.googleusercontent.com/hbxt1oEGpoI1ObjT0JT_b80M1C4rwTziwSEsg93NA3r6WXRLqI0gIDL19mw-UzQgWFuK0IbDt9QMGAQW8gwlfs_T2kg4u_9QgZrTErhv4d-PPQjj5UAG8BRODIJgM5-aMrTjebAv"
+                    alt="bimala sweets" class="img" id="img2">
+                <p class="imgdes">2. Bimala Sweets</p>
+            </div>
+        </a>
+        <a href="rest3.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest3"> <img class="img" id="img3"
+                    src="https://www.deccanherald.com/sites/dh/files/article_images/2020/03/28/2019-07-31T135424Z_1384936942_RC19F97AEBC0_RTRMADP_3_COFFEEDAYENTERPRISES-CEO-BACKLASH%20%281%29-1585373185.jpg"
+                    alt="cafe coffee day">
+                <p class="imgdes">3. Café Coffee Day</p>
+            </div>
+        </a>
+        <a href="rest4.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest4"><img
+                    src="https://lh3.googleusercontent.com/yqPGiCW1qZdWFU2q538WHwCvw0cy0uu1HPvzK7uECp0GQXN6ruP8Clfyp7ln97PrQoyFxnmAhhN2eOe3sy7rcYAvT_gH_nLS-NABz4QVWVnsjce1rtD8Bhq-tTCOT-q7kwzsA6Uf"
+                    alt="dreamland Restaurant" class="img" id="img4">
+                <p class="imgdes">4. Dreamland Restaurant</p>
+            </div>
+        </a>
+        <a href="rest5.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest5"><img
+                    src="https://lh4.googleusercontent.com/SoLcZKAb0LBPKV8rtOE8sbDhZwmViwtSb2goZCK8sKYBYtHf0ZtvNAMuva9_Ym9CWM9rJn8QgHStCNcVA0vEa6gxLUzuKbspcx82M-ov5vXNyBWkIcIHVYsJaFVN8Wz8fPeg6Ekf"
+                    alt="food city" class="img" id="img5">
+                <p class="imgdes">5. Food City</p>
+            </div>
+        </a>
+        <a href="rest6.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest6"><img
+                    src="https://content.jdmagicbox.com/comp/kharagpur/c7/9999p3222.3222.170606140800.h7c7/catalogue/heritage-restaurant-kharagpur-7e9ik.jpg"
+                    alt="heritage restaurant" class="img" id="img6">
+                <p class="imgdes">6. Heritage Restaurant</p>
+            </div>
+        </a>
+        <a href="rest7.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest7"><img
+                    src="https://lh3.googleusercontent.com/7IZBtagqM9nmxP4yIgPe7qiSc3HD0xeoHy63iG8zIAKTyDlObVUE84b1gJQuG6QLrowQTWvNWehgFzkobDwgVsCnSr_dsfhXCJ8zMyw"
+                    alt="mio amore" class="img" id="img7">
+                <p class="imgdes">7. Mio Amore</p>
+            </div>
+        </a>
+        <a href="rest8.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest8"><img
+                    src="https://b.zmtcdn.com/data/pictures/7/19800957/f01f44a45e9f42e8ebba7e28cc77dc4f.jpg" alt="pfc"
+                    class="img" id="img8">
+                <p class="imgdes">8. PAN Loop Fast Food Center</p>
+            </div>
+        </a>
+        <a href="rest9.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest9"><img
+                    src="https://lh3.googleusercontent.com/kfyPnTGSuLgMDgOJH-wUwu8t8acDG1JuKx-fRqcWpMjDa9pwHvyeUo9S7o6TQEJ5qXYeCM_wipW1-LD9Jqxl7Kf68zTdfu__F0UUyY6QPQ_aMaVHiZXk-cHP1aMpCmBPbebk7an6"
+                    alt="peeps kitchen" class="img" id="img9">
+                <p class="imgdes">9. Peeps Kitchen</p>
+            </div>
+        </a>
+        <a href="rest10.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest10"><img
+                    src="https://content3.jdmagicbox.com/comp/kharagpur/p8/9999p3222.3222.180914194835.j8p8/catalogue/smart-pind-kharagpur-technology-kharagpur-north-indian-restaurants-he9ckcgj1w.jpg"
+                    alt="smart pind" class="img" id="img10">
+                <p class="imgdes">10. Smart Pind</p>
+            </div>
+        </a>
+        <a href="rest11.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest11"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Subway_logo_%28with_slogan%29.svg/300px-Subway_logo_%28with_slogan%29.svg.png"
+                    alt="subway" class="img" id="img11">
+                <p class="imgdes">11. Subway</p>
+            </div>
+        </a>
+        <a href="rest12.html" target="_blank" style="text-decoration: none; color: black;">
+            <div class="rest" id="rest12"><img
+                    src="https://lh6.googleusercontent.com/B0uo35iEXwGrRE7oq_FLIwqxdRNf_PN49WzlFQzju8bWYQfDvc1uWXWSJVhN54e3fBFwaGMZOu0IXaf_rAym28whT119sof-W6kYdhbIy0uNqCSwXau-eYqONqMqUeqVihGMVazD"
+                    alt="tikka shops" class="img" id="img12">
+                <p class="imgdes">12. Tikka shops</p>
+            </div>
+        </a>
+    </div>
+    <footer class="footer">
+        <h1 id="foothead" style="text-align: center; font-size: calc(1.3em + 1vw);">For support</h1>
+        <div id="footinfo" style="text-align: center; font-size: calc(0.9rem + 0.3vw);">
+            Welcome to our support page! We're here to help you with any questions or issues you may have.
+
+            If you need assistance with using our product or service, or if you have any technical problems or bugs to report, please don't hesitate to contact us. Our friendly and knowledgeable support team is standing by to assist you.
+            
+            To get in touch with us, you can fill out the form on our Contact Us page, send us an email, or give us a call. We aim to respond to all inquiries as quickly as possible, so you can get back to using our product or service without delay.
+            
+            Thank you for choosing our product or service, and we look forward to assisting you!
+
+        </div>
+        <div id="sociallinks">
+            <div class="sociallink" id="sociallink1">
+                <a href="https://www.instagram.com/kodeinkgp_iitkgp/" target="_blank"> <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/640px-Instagram_logo_2022.svg.png"
+                        alt="kodeinkgp instagram" class="sm" id="sm1"></a>
+            </div>
+            <div class="sociallink" id="sociallink2">
+                <a href="https://www.facebook.com/search/top?q=kodenkgp" target="_blank"><img
+                        src="https://play-lh.googleusercontent.com/ccWDU4A7fX1R24v-vvT480ySh26AYp97g1VrIB_FIdjRcuQB2JP2WdY7h_wVVAeSpg"
+                        alt="kodeinkgp facebook" class="sm" id="sm2"></a>
+            </div>
+            <div class="sociallink" id="sociallink3">
+                <a href="https://www.linkedin.com/company/kodeinkgp" target="_blank"> <img
+                        src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw"
+                        alt="kodeinkgp linkedin" class="sm" id="sm3"></a>
+            </div>
+            <div class="sociallink" id="sociallink4">
+                <a href="https://twitter.com/KgpKodein" target="_blank"> <img
+                        src="https://play-lh.googleusercontent.com/wIf3HtczQDjHzHuu7vezhqNs0zXAG85F7VmP7nhsTxO3OHegrVXlqIh_DWBYi86FTIGk"
+                        alt="kodeinkgp twitter" class="sm" id="sm4"></a>
+            </div>
+        </div>
+        <h4 style="text-align: center; margin: calc(0.6rem + 1vw); padding: calc(0.6rem + 1vw);">
+            &copy; all copyrights reserved @2023.
+        </h4>
+    </footer>
+    <script>
+        console.log("Hi, I'm Ram Preetham");
+        let x = document.getElementById("menu");
+        let b = document.getElementById("hamburger");
+        let c = document.getElementById("cross");
+        b.addEventListener('click',function (){
+            x.style.display='flex';
+        })
+        c.addEventListener('click', function(){
+            x.style.display='none';
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            background-color: black;
+            color: white;
+            font-family: 'Mukta', sans-serif;
+            font-size: calc(1rem + 0.6vw);
+        }
+
+        #head {
+            text-align: center;
+            font-size: calc(2.5rem + 0.4vw);
+        }
+
+        #email {
+            font-size: calc(1rem + 0.6vw);
+        }
+
+        #phone {
+            font-size: calc(1rem + 0.6vw);
+        }
+
+        textarea {
+            width: calc(200px + 25vw);
+            height: calc(100px + 20vw);
+        }
+        #hamburger {
+            width: calc(62px + 0.9vw);
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            cursor: pointer;
+        }
+
+        #menu {
+            display: none;
+            width: calc(300px + 10vw);
+            /* height: 100vh; */
+            /* display: flex; */
+            flex-direction: column;
+            align-items: center;
+            font-size: 1.5rem;
+            background-color: whitesmoke;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            font-weight: bold;
+        }
+
+        .menu {
+            margin: 2rem 0px;
+            border: 2px solid black;
+            padding: 0.5rem 1rem;
+        }
+
+        #cross {
+            width: calc(22px + 0.5vw);
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            cursor: pointer;
+        }
+        @media(max-width :800px){
+            #menu{
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <span class="hamburger">
+        <img id="hamburger"
+            src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2012/10/threelines.png"
+            alt="hamburger">
+    </span>
+    <div id="menu">
+        <div id="cross"><img src="https://cdn-icons-png.flaticon.com/512/75/75519.png" alt="cross" id="cross"></div>
+        <div class="menu" id="home"><a href="index.html"  style="text-decoration: none; color: black;">Home</a></div>
+        <div class="menu" id="about"><a href="about.html"  style="text-decoration: none; color: black;">About</div>
+        <div class="menu" id="contact"><a href="contact.html" style="text-decoration: none; color: black;">Contact</a></div>
+        <div class="menu" id="website"><a href="https://kodeinkgp.live/" style="text-decoration: none; color: black;">Our website</a></div>
+    </div>
+    <h1 id="head">Contact Us</h1>
+    <p id="email">You can contact us through our mail id : <b>kodeinkgp@gmail.com</b> </p>
+    <p id="phone">Our contact number : <b>+91 8879555132</b></p>
+    <div id="form">
+        <form action="">
+            <div id="name">Your Name : <input type="text" style=" font-size: calc(1rem + 0.6vw);"></div>
+            <br>
+            <div id="mail">Your e-mail : <input type="email" style=" font-size: calc(1rem + 0.6vw);"></div>
+            <br>
+            <div id="msg">
+                <textarea name="msg" id="txtbox" style=" font-size: calc(1rem + 0.6vw);">write your message.</textarea>
+                <div id="submit" style="margin: calc(3px + 0.5vw);">
+                    <input type="submit"
+                        style=" font-size: calc(1rem + 0.6vw); padding: 0px calc(3px + 0.5vw); cursor: pointer; font-weight: bold;">
+                </div>
+                <div id="reset" style="margin: calc(3px + 0.5vw);">
+                    <input type="reset"
+                        style=" font-size: calc(1rem + 0.6vw); padding: 0px calc(3px + 0.5vw); cursor: pointer; font-weight: bold;">
+                </div>
+                <br>
+            </div>
+        </form>
+    </div>
+    <script>
+        console.log("Hi, I'm Ram Preetham");
+        let x = document.getElementById("menu");
+        let b = document.getElementById("hamburger");
+        let c = document.getElementById("cross");
+        b.addEventListener('click',function (){
+            x.style.display='flex';
+        })
+        c.addEventListener('click', function(){
+            x.style.display='none';
+        })
+
+    </script>
+</body>
+
+</html>

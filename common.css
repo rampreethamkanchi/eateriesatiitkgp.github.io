@@ -1,0 +1,497 @@
+.intro {
+    text-align: center;
+}
+
+#heading {
+    font-size: calc(1.7em + 0.7vw);
+    font-family: 'Alkatra', cursive;
+}
+
+#info {
+    font-size: calc(1em + 0.4vw);
+    font-family: 'Mukta', sans-serif;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: calc(300px + 20vw);
+    border: 2px solid black;
+    margin: calc(1rem + 0.5vw);
+    padding: calc(0.3rem + 0.4vw);
+    background-color: white;
+    font-size: calc(1.2em + 0.3vw);
+}
+
+.plusminus {
+    width: calc(24px + 0.2vw);
+    margin: 0px calc(0.3rem + 0.5vw);
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#plusminus1 {
+    float: right;
+}
+
+#plusminus2 {
+    float: right;
+}
+
+#plusminus3 {
+    float: right;
+}
+
+#plusminus4 {
+    float: right;
+}
+
+#plusminus5 {
+    float: right;
+}
+
+#plusminus6 {
+    float: right;
+}
+
+#plusminus7 {
+    float: right;
+}
+
+#plusminus8 {
+    float: right;
+}
+
+#plusminus9 {
+    float: right;
+}
+
+#plusminus10 {
+    float: right;
+}
+
+#plusminus11 {
+    float: right;
+}
+
+#plusminus12 {
+    float: right;
+}
+
+#plusminus13 {
+    float: right;
+}
+
+#plusminus14 {
+    float: right;
+}
+
+#plusminus15 {
+    float: right;
+}
+
+#plusminus16 {
+    float: right;
+}
+
+#plusminus17 {
+    float: right;
+}
+
+#plusminus18 {
+    float: right;
+}
+
+#plusminus19 {
+    float: right;
+}
+
+#plusminus20 {
+    float: right;
+}
+
+#plusminus21 {
+    float: right;
+}
+
+#plusminus22 {
+    float: right;
+}
+
+#plusminus23 {
+    float: right;
+}
+
+#plusminus24 {
+    float: right;
+}
+
+#bill {
+    /* float: right; */
+    /* position: absolute; */
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: rgb(238, 238, 86);
+    border: 2px dotted blue;
+    border-radius: calc(0.1rem + 0.5vw);
+    align-items: center;
+    /* display: flex; */
+     display: none;
+    flex-direction: row;
+    width: calc(400px + 5vw);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bill {
+    width: 45%;
+    margin: calc(0.5rem + 1vw);
+    padding: 0px calc(0.7rem + 0.7vw);
+    font-size: calc(0.5rem + 0.65vw);
+    /* border: 2px solid black; */
+   
+}
+#billhead{
+    width: 90%;
+    text-align: center;
+}
+
+#billmoney {
+    font-size: calc(1.4rem + 0.6vw);
+    width: 90%;
+    text-align: center;
+}
+
+#billpay {
+    font-size: calc(1rem + 0.55vw);
+    margin: 0px 0px 0.5rem 0px;
+    cursor: pointer;
+    background-color: rgb(24, 24, 106);
+    color: white;
+    width: 35%;
+    margin: auto;
+    margin-bottom: calc(0.5rem + 0.2vw);
+    padding: 3px 0px;
+}
+
+#billclose {
+    font-size: calc(1rem + 0.55vw);
+    margin: 0px 0px 0.5rem 0px;
+    cursor: pointer;
+    background-color: rgb(27, 27, 107);
+    color: white;
+    width: 35%;
+    margin: auto;
+    margin-bottom: calc(0.5rem + 0.2vw);
+    padding: 3px 0px ;
+}
+
+#number1 {
+    opacity: 0;
+}
+
+#item1des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number2 {
+    opacity: 0;
+}
+
+#item2des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number3 {
+    opacity: 0;
+}
+
+#item3des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number4 {
+    opacity: 0;
+}
+
+#item4des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number5 {
+    opacity: 0;
+}
+
+#item5des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number6 {
+    opacity: 0;
+}
+
+#item6des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number7 {
+    opacity: 0;
+}
+
+#item7des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number8 {
+    opacity: 0;
+}
+
+#item8des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number9 {
+    opacity: 0;
+}
+
+#item9des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number10 {
+    opacity: 0;
+}
+
+#item10des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number11 {
+    opacity: 0;
+}
+
+#item11des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number12 {
+    opacity: 0;
+}
+
+#item12des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number13 {
+    opacity: 0;
+}
+
+#item13des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number14 {
+    opacity: 0;
+}
+
+#item14des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number15 {
+    opacity: 0;
+}
+
+#item15des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number16 {
+    opacity: 0;
+}
+
+#item16des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number17 {
+    opacity: 0;
+}
+
+#item17des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number18 {
+    opacity: 0;
+}
+
+#item18des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number19 {
+    opacity: 0;
+}
+
+#item19des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number20 {
+    opacity: 0;
+}
+
+#item20des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number21 {
+    opacity: 0;
+}
+
+#item21des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number22 {
+    opacity: 0;
+}
+
+#item22des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number23 {
+    opacity: 0;
+}
+
+#item23des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#number24 {
+    opacity: 0;
+}
+
+#item24des {
+    
+    margin: 0px;
+    padding: 0px;
+   display: none;
+}
+
+#view {
+    font-size: calc(1.6rem + 0.2vw);
+    color: white;
+    position: fixed;
+    top: 0.9rem;
+    right: 0.6rem;
+    background-color: rgb(11, 33, 143);
+    border: 2px dotted rgb(9, 9, 9);
+    border-radius: calc(0.1rem + 0.5vw);
+    align-items: center;
+    cursor: pointer;
+}
+
+#viewpay {
+    margin: 0px calc(1rem + 0.5vw);
+    padding: calc(0.3rem + 0.4vw);
+}
+
+@media(max-width : 850px){
+    #view{
+        position: sticky;
+        top: 5px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+}
+@media(max-width : 1250px){
+    #bill{
+        position: fixed;
+        top: 5px;
+        width: auto;
+    }
+    .bill{
+        font-size: calc(1rem + 0.1vw);
+        text-align: center;
+    }
+}

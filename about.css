@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+
+#head {
+    text-align: center;
+    font-size: calc(2.5rem + 0.4vw);
+}
+
+#des {
+    font-size: calc(1rem + 0.4vw);
+}
+
+#team {
+    font-size: calc(1rem + 0.4vw);
+}
+
+#pic {
+    width: calc(200px + 25vw);
+}
+#hamburger {
+    width: calc(62px + 0.9vw);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+}
+
+#menu {
+    display: none;
+    width: calc(300px + 10vw);
+    /* height: 100vh; */
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: bold;
+}
+
+.menu {
+    margin: 2rem 0px;
+    border: 2px solid black;
+    padding: 0.5rem 1rem;
+}
+
+#cross {
+    width: calc(22px + 0.5vw);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+}
+@media(max-width :800px){
+    #menu{
+        width: 100vw;
+    }
+}
